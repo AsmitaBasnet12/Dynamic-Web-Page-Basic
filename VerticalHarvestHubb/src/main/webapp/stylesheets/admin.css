@@ -1,0 +1,96 @@
+@charset "ISO-8859-1";
+/* Your existing CSS styles */
+
+/* Common styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+.site-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.site-title {
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Navigation styles */
+.site-navigation {
+    margin-top: 20px;
+}
+
+.nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav a:hover {
+    color: #0056b3;
+}
+
+/* Content section styles */
+.content-section {
+    padding: 20px;
+}
+
+/* Order summary styles */
+.order-summary, .total-products, .total-user, .sidenav, .add-product {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.order-summary h1, .total-products h1, .total-user h1, .sidenav h1, .add-product h1 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    .nav {
+        display: block;
+    }
+
+    .nav li {
+        display: block;
+        margin: 0;
+    }
+
+    .nav a {
+        display: block;
+        margin-bottom: 10px;
+    }
+}

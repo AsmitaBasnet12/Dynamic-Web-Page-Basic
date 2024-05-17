@@ -1,0 +1,110 @@
+@charset "ISO-8859-1";
+body {
+font-family: "Open Sans", sans-serif;
+margin: 0;
+background-color: #fff6cc;
+}
+
+.site-title {
+font-family: Brush Script MT;
+}
+
+
+a {
+text-decoration: none;
+color: whitesmoke;
+}
+.site-header {
+border-bottom: 1px solid #ccc;
+padding: 0.5em 1em;
+display: flex;
+justify-content: space-between;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+background-color: #484E44;
+z-index: 10;
+}
+
+.site-identity h1 {
+font-size: 1.5em;
+margin: 0.6em 0;
+display: inline-block;
+}
+
+.site-navigation {
+margin-left: 0.5em; /* Adjust this value as needed */
+}
+
+.site-navigation ul,
+.site-navigation li {
+margin: 0;
+padding: 0;
+}
+
+.site-navigation li {
+display: inline-block;
+margin: 1.4em 1em 1em 1em; /* You might want to adjust this as well */
+}
+.site-navigation{
+    margin-right: 60px;
+}
+
+.nav{
+margin-right: 200px;
+font-family: "Source Sans Pro", "Arial", sans-serif;
+}
+
+.bgimg1{
+padding: 10px 20px 15px;
+}
+
+.txtCollection{
+font-family: Georgia;
+text-align: center;
+}
+.txtCollection p{
+font-family:Lucida Handwriting;;
+color: #343a40;
+}
+.grid-container {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-gap: 30px;
+margin-left: 55px;
+}
+
+
+.grid-item img{ 
+    width: 300px;
+    height: 250px;
+    object-fit: cover
+}
+
+.container2{
+display:flex
+}
+.container2 h2{
+    font-family: trochut;
+    margin-left: 25px;
+    font-weight: 6;
+}
+.container2 p{
+    font-family: Garamond;
+    color: #494949;
+}
+
+.container2 button{
+        background-color: #2F3927;
+        padding: 14px 40px;
+        border-radius: 12px;
+        color: white;
+        font-family: Lucida Handwriting;
+}
+
+main {
+padding-top: 80px; }
+
+

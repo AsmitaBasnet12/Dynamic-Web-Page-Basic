@@ -1,0 +1,91 @@
+@charset "ISO-8859-1";
+body {
+font-family: "Open Sans", sans-serif;
+margin: 0;
+background-color: white;
+}
+.container {
+display: flex;
+align-items: center;
+}
+
+.image {
+order: 2;
+width: 700px;
+height: 300px;
+margin-left: 20px;
+margin-right: 5%;
+}
+
+.txtMain h2{
+margin-left: 2%; 
+font-family: Unna;
+color: purple;
+font-size: 25px;
+
+}
+
+.text {
+order: 1; /* Change the order of the text */
+margin-right: 20px; /* Add margin to separate the text from the image */
+}
+.text h2 {
+margin-top: -5px;
+margin-left: 3%;
+font-family: tenali Ramkrishna;
+font-weight: 2px;
+font-size: 20px;
+}
+.text p{
+margin-left: 3%; 
+margin-top: -5px;
+font-family: tenali Ramkrishna;
+font-weight: 2;
+color: #312F2F;
+
+}
+
+.container1{
+display: flex;
+align-items: center; 
+}
+
+.img {
+order: 2;
+width: 700px;
+height: 300px;
+margin-left: 20px;
+margin-right: 5%;
+}
+
+
+.txt {
+order: 1; /* Change the order of the text */
+margin-right: 20px; /* Add margin to separate the text from the image */
+}
+.txt h2 {
+margin-top: -5px;
+margin-left: 3%;
+font-family: tenali Ramkrishna;
+font-weight: 2px;
+font-size: 20px;
+}
+.txt p{
+margin-left: 3%; 
+margin-top: -5px;
+font-family: tenali Ramkrishna;
+font-weight: 2;
+color: #312F2F;
+
+}
+.txt1 h2{
+    text-align: center;
+    font-family: unna;
+    color: #114460;
+}
+.imgg{
+    width: 1200px;
+  height: 500px;
+    display: block; /* Set the image display to block */
+margin: 0 auto; 
+}
